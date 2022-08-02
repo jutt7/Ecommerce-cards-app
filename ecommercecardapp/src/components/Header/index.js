@@ -32,11 +32,12 @@ export default function Header({navigation}) {
             style={styles.imgContainer}
           />
         </TouchableOpacity>
-        <Image
+        {/* <Image
           source={logo}
           resizeMode="contain"
           style={styles.logoContainer}
-        />
+        /> */}
+        <Text style={styles.logoTxt}>Evalidate</Text>
         <View style={styles.container1}>
           <FontAwesome
             name="send"

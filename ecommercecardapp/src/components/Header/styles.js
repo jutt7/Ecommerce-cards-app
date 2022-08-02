@@ -20,6 +20,13 @@ const styles = StyleSheet.create({
     width: width(12),
     marginLeft: width(30),
   },
+  logoTxt: {
+    fontSize: width(6),
+    textAlign: 'center',
+    alignSelf: 'center',
+    marginLeft: width(23),
+    color: AppColors.primary,
+  },
   container1: {
     flexDirection: 'row',
     alignItems: 'center',

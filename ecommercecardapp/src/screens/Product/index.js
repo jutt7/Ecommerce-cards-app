@@ -85,14 +85,17 @@ export default function Product({navigation}) {
           <Text style={styles.priceTxt}>$200</Text>
         </View>
         <Text style={styles.priceTxt}>MIGUEL CABRERA</Text>
-        <Text style={styles.txt3}>Available Varients</Text>
-        <View
+        {/* <Text style={styles.txt3}>Available Varients</Text> */}
+
+        {/* --------------- Varient --------------------- */}
+
+        {/* <View
           style={{
             flexDirection: 'row',
             alignItems: 'center',
             marginTop: height(1.5),
           }}>
-          {/* --------------- Varient --------------------- */}
+        
           <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <Varient brColor={AppColors.sementic1} />
             <Varient brColor={AppColors.sementic1} />
@@ -105,7 +108,7 @@ export default function Product({navigation}) {
             <Varient brColor={AppColors.sementic1} />
             <Varient brColor={AppColors.sementic1} />
           </ScrollView>
-        </View>
+        </View> */}
 
         {/* --------------- Stats --------------------- */}
         {showDetail ? (

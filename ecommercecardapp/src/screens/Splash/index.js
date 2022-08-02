@@ -66,7 +66,7 @@ export default function Splash({navigation}) {
   setTimeout(() => {
     animation.value = height(0.2);
     transform1.value = -width(200);
-    transformX2.value = -width(20);
+    transformX2.value = -width(28);
     transformY2.value = -height(20);
     setTimeout(() => {
       transform.value = -height(8);
@@ -92,7 +92,7 @@ export default function Splash({navigation}) {
         />
       </Animated.View>
 
-      <Animated.View
+      {/* <Animated.View
         style={[
           {
             height: height(40),
@@ -104,7 +104,7 @@ export default function Splash({navigation}) {
             right: -width(60),
           },
           animationStyle1,
-        ]}></Animated.View>
+        ]}></Animated.View> */}
 
       <Animated.View
         style={[

@@ -10,7 +10,7 @@ const styles = StyleSheet.create({
   },
   topContainer: {
     backgroundColor: AppColors.primary,
-    height: height(22),
+    height: height(18),
     // width: width(100),
     borderRadius: width(10),
     paddingTop: height(6),
@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   innerContainer: {
     backgroundColor: AppColors.sementic7,
     // backgroundColor: 'pink',
-    height: height(65),
+    height: height(70),
     marginHorizontal: width(2),
     marginTop: -height(2),
   },
